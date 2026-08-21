@@ -199,13 +199,9 @@
 
       slide.appendChild(v);
 
-    v.addEventListener("click", function () {
-  v.muted = false;
-  if (v.paused) {
-    v.play();
-  } else {
-    v.pause();
-  }
+v.addEventListener("click", function () {
+  if (v.paused) v.play();
+  else v.pause();
 });
 
       openLink.style.display = "block";
