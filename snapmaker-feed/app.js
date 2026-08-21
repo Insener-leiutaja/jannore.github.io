@@ -192,7 +192,7 @@
       v.src = src;
       v.controls = false;
       v.loop = true;
-      v.muted = true;
+      v.muted = false;
       v.autoplay = true;
       v.playsInline = true;
       v.setAttribute("playsinline", "playsinline");
