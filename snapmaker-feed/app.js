@@ -190,7 +190,7 @@
     if (it.type === "video") {
       var v = document.createElement("video");
       v.src = src;
-      v.controls = false;
+      v.controls = true;
       v.loop = true;
       v.muted = false;
       v.autoplay = falce;
